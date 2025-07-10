@@ -21,7 +21,7 @@ sudo curl https://raw.githubusercontent.com/docker/docker-ce/master/components/c
 wget https://downloads.mongodb.com/compass/mongodb-mongosh-2.5.0.aarch64.rpm
 sudo rpm -i mongodb-mongosh-2.5.0.aarch64.rpm
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
+echo "y" | ~/.fzf/install~/.fzf/install
 sudo yum install lvm2 -y
 
 cat <<EOF > /usr/lib/systemd/system/docker.service
