@@ -1,2 +1,2 @@
-sudo reboot
+#!/bin/bash
 sudo dnf remove -y kernel
