@@ -10,8 +10,8 @@ sudo dnf install -y rsyslog
 sudo systemctl enable rsyslog --now
 
 sudo dnf -y install dnf-plugins-core
-wget https://download.docker.com/linux/static/stable/aarch64/docker-27.3.1.tgz
-tar -xf docker-27.3.1.tgz
+wget https://download.docker.com/linux/static/stable/aarch64/docker-28.5.0.tgz
+tar -xf docker-28.5.0.tgz
 sudo mv docker/* /usr/bin/
 sudo yum install -y iptables git mdadm
 sudo groupadd docker
